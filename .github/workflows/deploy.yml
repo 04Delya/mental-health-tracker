@@ -36,7 +36,7 @@ jobs:
           fi
           
           # Switch to master branch
-          git checkout master
+          # git checkout master
 
           # Push to master branch and capture the output
           push_output=$(git push $PWS_URL main:master 2>&1)

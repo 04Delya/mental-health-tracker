@@ -2,11 +2,11 @@ name: Push to PWS
 
 on:
   push:
-    branches: [ main, main]
+    branches: [ main, master]
     paths-ignore:
         - '**.md'
   pull_request:
-    branches: [ main, main ]
+    branches: [ main, master ]
     paths-ignore:
         - '**.md'
 
